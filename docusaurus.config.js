@@ -20,7 +20,12 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -32,7 +37,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        
+ 
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
@@ -52,12 +57,10 @@ module.exports = {
         //     'https://github.com/facebook/docusaurus/edit/master/website/',
         // },
         blog: {
-          path: './blog',
-          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
