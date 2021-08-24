@@ -10,8 +10,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yokodak', // Usually your GitHub org/user name.
+  projectName: 'runhua-blog', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -28,7 +28,7 @@ module.exports = {
         // },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/yokodak',
           label: 'GitHub',
           position: 'right',
         },
