@@ -37,7 +37,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
- 
+        // 
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
@@ -58,9 +58,10 @@ module.exports = {
         // },
         blog: {
           showReadingTime: true,
+          path: "./blog",
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
