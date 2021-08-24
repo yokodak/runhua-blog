@@ -1,0 +1,24 @@
+{
+  "permalink": "/blog/blog",
+  "source": "@site/blog/blog.md",
+  "title": "blog",
+  "description": "代码块",
+  "date": "2021-08-24T02:28:18.334Z",
+  "formattedDate": "August 24, 2021",
+  "tags": [
+    {
+      "label": "blog",
+      "permalink": "/blog/tags/blog"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 0.29,
+  "truncated": true,
+  "nextItem": {
+    "title": "blog-test2",
+    "permalink": "/blog/blog-test2"
+  }
+}

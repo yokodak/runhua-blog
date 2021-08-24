@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>My Site Blog</title>
+        <link>https://your-docusaurus-test-site.com/blog</link>
+        <description>My Site Blog</description>
+        <lastBuildDate>Tue, 24 Aug 2021 02:28:18 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[blog]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/blog</link>
+            <guid>blog</guid>
+            <pubDate>Tue, 24 Aug 2021 02:28:18 GMT</pubDate>
+            <description><![CDATA[代码块]]></description>
+        </item>
+        <item>
+            <title><![CDATA[blog-test2]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/blog-test2</link>
+            <guid>blog-test2</guid>
+            <pubDate>Tue, 24 Aug 2021 02:25:35 GMT</pubDate>
+            <description><![CDATA[代码块]]></description>
+        </item>
+        <item>
+            <title><![CDATA[blog-test]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/blog-test</link>
+            <guid>blog-test</guid>
+            <pubDate>Tue, 24 Aug 2021 02:25:35 GMT</pubDate>
+            <description><![CDATA[代码块]]></description>
+        </item>
+    </channel>
+</rss>

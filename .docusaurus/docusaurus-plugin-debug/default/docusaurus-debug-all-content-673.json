@@ -1,0 +1,328 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "contentPath": "D:\\personal-project\\website\\my-website\\docs",
+          "contentPathLocalized": "D:\\personal-project\\website\\my-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "intro",
+          "sidebars": {
+            "defaultSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Basics",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/deploy-your-site"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "tutorial-basics/create-a-blog-post",
+              "isDocsHomePage": false,
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "tutorial-basics/create-a-document",
+              "isDocsHomePage": false,
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/tutorial-basics/create-a-document",
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "tutorial-basics/create-a-page",
+              "isDocsHomePage": false,
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/tutorial-basics/create-a-page",
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "tutorial-basics/deploy-your-site",
+              "isDocsHomePage": false,
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "blog",
+          "metadata": {
+            "permalink": "/blog/blog",
+            "source": "@site/blog/blog.md",
+            "title": "blog",
+            "description": "代码块",
+            "date": "2021-08-24T02:28:18.334Z",
+            "formattedDate": "August 24, 2021",
+            "tags": [
+              {
+                "label": "blog",
+                "permalink": "/blog/tags/blog"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.29,
+            "truncated": true,
+            "nextItem": {
+              "title": "blog-test2",
+              "permalink": "/blog/blog-test2"
+            }
+          }
+        },
+        {
+          "id": "blog-test2",
+          "metadata": {
+            "permalink": "/blog/blog-test2",
+            "source": "@site/blog/blog-test2.md",
+            "title": "blog-test2",
+            "description": "代码块",
+            "date": "2021-08-24T02:25:35.898Z",
+            "formattedDate": "August 24, 2021",
+            "tags": [
+              {
+                "label": "first",
+                "permalink": "/blog/tags/first"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.035,
+            "truncated": true,
+            "prevItem": {
+              "title": "blog",
+              "permalink": "/blog/blog"
+            },
+            "nextItem": {
+              "title": "blog-test",
+              "permalink": "/blog/blog-test"
+            }
+          }
+        },
+        {
+          "id": "blog-test",
+          "metadata": {
+            "permalink": "/blog/blog-test",
+            "source": "@site/blog/blog-test.md",
+            "title": "blog-test",
+            "description": "代码块",
+            "date": "2021-08-24T02:25:35.896Z",
+            "formattedDate": "August 24, 2021",
+            "tags": [
+              {
+                "label": "first",
+                "permalink": "/blog/tags/first"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.26,
+            "truncated": true,
+            "prevItem": {
+              "title": "blog-test2",
+              "permalink": "/blog/blog-test2"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "blog",
+            "blog-test2",
+            "blog-test"
+          ]
+        }
+      ],
+      "blogTags": {
+        "blog": {
+          "name": "blog",
+          "items": [
+            "blog"
+          ],
+          "permalink": "/blog/tags/blog"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "blog",
+            "blog-test2",
+            "blog-test"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "first": {
+          "name": "first",
+          "items": [
+            "blog-test2",
+            "blog-test"
+          ],
+          "permalink": "/blog/tags/first"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
